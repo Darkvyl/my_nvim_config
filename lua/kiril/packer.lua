@@ -16,4 +16,6 @@ return require('packer').startup(function(use)
 		  vim.cmd.color "rose-pine"
 	  end
   }
+  use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+  use('theprimeagen/harpoon')
 end)
