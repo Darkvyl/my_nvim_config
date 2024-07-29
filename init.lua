@@ -1,1 +1,1 @@
-require("kiril")
+require("config")
